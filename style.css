@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+}
+h1{
+    font-size: 4rem;
+}
+.heading-section{
+    text-align: center;
+    margin-top: 5rem;
+    padding: 1rem;
+}
+
+.options-section{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+button{
+    background: #04b5f0;
+    color: black;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: none;
+    transition: 0.15s ease-in;
+    border: 1px solid rgb(97, 96, 96);
+
+}
+.options-section button:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transform: scale(1.01);
+}
+.button-click{
+    background-color: #020e13;
+    color: white;
+}
+
+.board-section{
+    width: 50rem;
+    height: 50rem;
+    margin:2rem auto;
+    padding: 1rem;
+    border: 2px solid black;
+    
+}
+.container{
+    width: 50rem;
+    height: 50rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    box-sizing: border-box;
+    border: 1px solid black;
+    background-color: aliceblue;
+}
